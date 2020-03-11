@@ -41,9 +41,9 @@ class _InfoState extends State<Info> with TickerProviderStateMixin {
             children: <Widget>[
               _getTittle(),
               _getContent(getString("text_info")),
-              _getContentSecond("Framework","flutter.io","https://flutter.io/"),
-              _getContentSecond("Repository","flutter_news","https://github.com/RafaelBarbosatec/flutter_news"),
-              _getContentSecond("Developer","RafaelBarbosaTec","http://rafaelbarbosatec.github.io/"),
+              _getContentSecond("Framework","Flutter","https://flutter.io/"),
+              _getContentSecond("Repository","flutter-news","https://github.com/RafaelBarbosatec/flutter_news"),
+              _getContentSecond("Developer","kingofdevs","https://github.com/kingofdevs/"),
 
             ],
           ),
